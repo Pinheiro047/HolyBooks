@@ -8,16 +8,26 @@ body{
     text-align: center;
     top: 50%;
     left: 50%;
-   transform: translate(-50%, -50%);
-   border-radius: 18px;
-   border: 1px solid black;
-   padding-left: 18px;
-   padding-right: 18px;
+    transform: translate(-50%, -50%);
+    border-radius: 18px;
+    border: 1px solid black;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+label{
+    font-size: 1.2rem;
+    font-family: Arial;
+}
+
+input{
+    border-radius: 20px;
+    border: black ;
 }
 
 .entrar{
     text-align: center;
-    font-size: 25px;
+    font-size: 12px;
     background-color: rgb(230, 191, 19);
 }
 
