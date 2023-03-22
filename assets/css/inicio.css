@@ -73,6 +73,10 @@ main{
     width: 220px;
 }
 
+.colorido:hover{
+   transform: scale(1.2);
+}
+
 /* .conteudo:hover{
     cursor: pointer;
     opacity: 3.0;
@@ -101,7 +105,7 @@ button{
     padding-right: 13px;
     padding-top: 9px;
     padding-bottom: 9px;
-    font-weight: bos;
+    font-weight: bold;
 }
 
 button:hover{
