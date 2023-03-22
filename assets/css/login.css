@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(223, 223, 172);
+}
+
+.login{
+    background-color: rgb(230, 194, 34);
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+   transform: translate(-50%, -50%);
+   border-radius: 18px;
+   border: 1px solid black;
+   padding-left: 18px;
+   padding-right: 18px;
+}
+
+.entrar{
+    text-align: center;
+    font-size: 25px;
+    background-color: rgb(230, 191, 19);
+}
+
