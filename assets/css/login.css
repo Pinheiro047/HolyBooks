@@ -1,33 +1,48 @@
 body{
-    background-color: rgb(223, 223, 172);
+    background-color: #daa520;
+    font-family: 'Trebuchet MS';
+}
+
+.holy{
+    text-align: center;
+    margin-top: 15px;
+   
 }
 
 .login{
-    background-color: rgb(230, 194, 34);
+    background-color: #b8860b;
     position: absolute;
-    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 8px;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    border-radius: 18px;
-    border: 1px solid black;
-    padding-left: 18px;
-    padding-right: 18px;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    box-shadow: 5px 5px 20px;
 }
 
 label{
-    font-size: 1.2rem;
-    font-family: Arial;
+    font-size: 1.7rem;
+    font-family: Impact;
 }
 
 input{
-    border-radius: 20px;
-    border: black ;
+    border-radius: 5px;
+    border: none;
+    font-size: larger;
 }
 
 .entrar{
-    text-align: center;
-    font-size: 12px;
-    background-color: rgb(230, 191, 19);
+    background-color: #c0c038;
+    color: black;
+    text-decoration: none;
+    padding-left: 2px;
+    padding-bottom: 2px;
+    padding-left: 3px;
+    padding-right: 3px;
+    font-size: large;
+    border-radius: 7px
 }
-
