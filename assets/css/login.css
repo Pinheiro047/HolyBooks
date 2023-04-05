@@ -1,48 +1,61 @@
 body{
-    background-color: #daa520;
-    font-family: 'Trebuchet MS';
+        background: radial-gradient(circle at 10% 20%, rgb(255, 200, 124) 0%, rgb(252, 251, 121) 90%);
+        font-family:Arial;
 }
 
-.holy{
-    text-align: center;
-    margin-top: 15px;
-   
+.inicio_login{
+        background-color: #ff9a3c;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding-left: 36px;
+        padding-top: 16px;
+        padding-right: 36px;
+        padding-bottom: 90px;
+        border-radius: 20px 20px 20px 20px;
+        box-shadow: white 1px 0 100px 15px;
 }
 
-.login{
-    background-color: #b8860b;
-    position: absolute;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    border-radius: 8px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    text-align: center;
-    box-shadow: 5px 5px 20px;
+.faca_login{
+        color: #a78a42;
+        text-align: center;
 }
 
 label{
-    font-size: 1.7rem;
-    font-family: Impact;
+        font-size: 1.1rem;
 }
 
 input{
-    border-radius: 5px;
-    border: none;
-    font-size: larger;
+        border-radius: 23px;
+        font-size: 0.8rem;
+        border: none;
+        width: 20rem;
+        height: 2rem;
+        padding-inline-start: 10px;
 }
 
+.redefinir{
+        font-size: 0.7rem;
+        text-decoration: none;
+        margin-left: 9px;
+}       
+
 .entrar{
-    background-color: #c0c038;
-    color: black;
-    text-decoration: none;
-    padding-left: 2px;
-    padding-bottom: 2px;
-    padding-left: 3px;
-    padding-right: 3px;
-    font-size: large;
-    border-radius: 7px
+        background: linear-gradient(44.8deg, rgba(255, 136, 102, 0.67) -53.1%, rgba(255, 221, 136, 0.28) 49%);
+        padding-left: 100px;
+        padding-top: 12px;
+        padding-right: 125px;
+        padding-bottom: 12px;
+        border-radius: 25px;
+        text-decoration: none;
+        color: black;
+        padding-inline-start: 140px;
+        font-weight: bold;
+}
+
+
+.termos{
+        margin-left: 115px;
+        font-size: 0.7rem;
 }
