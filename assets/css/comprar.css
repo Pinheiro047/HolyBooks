@@ -1,0 +1,36 @@
+body{
+    background-color: #ffde25;
+}
+
+
+.fundo{
+    background-color: #ceb734;
+    margin-top: 60px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 60px;
+    border-radius: 30px 30px 30px 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.img{
+    max-width: 400px;
+    max-height: 400px;
+   
+}
+
+.janela2{
+    text-align: center;
+}
+
+.nome{
+    font-size: 2.5rem;
+
+}
+
+.descricao{
+    font-size: 1.3rem;
+}
+

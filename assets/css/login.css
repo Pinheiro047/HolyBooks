@@ -3,6 +3,8 @@ body{
         font-family:Arial;
 }
 
+
+
 .inicio_login{
         background-color: #ff9a3c;
         position: absolute;
@@ -25,6 +27,8 @@ body{
 label{
         font-size: 1.1rem;
 }
+
+
 
 input{
         border-radius: 23px;

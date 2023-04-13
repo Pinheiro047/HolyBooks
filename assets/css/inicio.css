@@ -75,6 +75,7 @@ main{
 
 .colorido:hover{
    transform: scale(1.2);
+   cursor: pointer;
 }
 
 /* .conteudo:hover{
@@ -94,9 +95,6 @@ p{
 .comprar{
     font-size: 1.2rem;
     display: flex;
-    /* justify-content: center;
-    text-align: center;
-    align-items: center; */
     border-radius: 6px;
     background-color: rgb(49, 141, 21);
     color: white;
