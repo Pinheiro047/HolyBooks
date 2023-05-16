@@ -36,6 +36,15 @@ body{
     margin-right: -100px;
 }
 
+.carrinho_compra{
+    color: black;
+    font-size: 35px;
+}
+.carrinho_compras{
+    color: black;
+    font-size: 40px;
+}
+
 
 .carrosel{
    overflow: hidden;
