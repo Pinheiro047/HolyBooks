@@ -1,5 +1,8 @@
-let faca_login = document.getElementById('faca_login')
+let menu_abrir = document.querySelector('.menu_abrir')
+// console.log(btn_btn)
+let navbar = document.querySelector('.navbar')
+// console.log(navbar)
 
-faca_login.addEventListener('click', ()=>{
-
+menu_abrir.addEventListener('click', ()=>{
+    navbar.classList.toggle('navbar_ativo')
 })
