@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="./assets/js/java.js" defer></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/inicio.css">
     <link rel="stylesheet" href="./assets/css/sobrenos.css">
@@ -13,17 +15,31 @@
 <body>
     <header>
         <div class="cabecalho">
-            <img class="cabecalho" src="./assets/img/HOLYKKKKKK.png" alt="icone">
+            <button class="menu-abrir  menu_abrir"><span class="material-symbols-outlined">menu</span></button>
+            <img  class="cabecalho" src="./assets/img/HOLYKKKKKK.png" alt="icone">
             <ul>
-                <a href="index.html">INÍCIO</a>
-                <a href="biblia.html">BÍBLIA</a>
-                <a href="livros.html">LIVROS</a>
-                <a href="sobrenos.html">SOBRE NÓS</a>
                 
+                </ul>
+
+                <div class="icones">
+                    <a href="comprar1.html"><span class="material-symbols-outlined carrinho_compra">shopping_cart</span></a>
+                    <a href="login.html"><span class="material-symbols-outlined carrinho_compras">person</span></a>
+                </div>
+        </div>
+
+        <nav class="navbar navbar_ativo">
+            <ul class="lista">
+                <br><br><br>
+                <li><a class="lista_nav" href="index.html">&ensp;&ensp;&ensp;INÍCIO</a></li>
+                <br>
+                <li><a class="lista_nav" href="biblia.html">&ensp;&ensp;&ensp;BÍBLIA</a></li>
+                <br>
+                <li><a class="lista_nav" href="livros.html">&ensp;&ensp;&ensp;LIVROS</a></li>
+                <br>
+                <li><a class="lista_nav" href="sobrenos.html">&ensp;&ensp;&ensp;SOBRE NÓS</a></li>
             </ul>
 
-            <a href="./login.html"><img src="./assets/img/perfil (3).png" class="icon"></a>
-        </div>
+        </nav>
     </header>
 
     <main>
@@ -39,11 +55,6 @@
      </div>
     </main>
 
-    <footer>
-        <div class="hora"><p class="foot">Horário: Segunda a Sabado das 9h30 ás 20h <br> Domingo das 10h30 ás 14h30</p></div>
-        <div class="copy"><p class="foot">Holy Books. Ltda. &copy;</p></div>
-        <div class="adress"> <p class="foot">Site de estudante (ensino médio) <br> Não levar o site a serio</p></div>
-    </footer>
     
 </body>
 </html>

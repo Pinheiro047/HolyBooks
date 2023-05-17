@@ -62,16 +62,15 @@ body{
     top: 13.6vh;
     left: 0px;
     width: 15vw;
-    height: 25vh;
-    background-color: #DAA520;
-    color: whitesmoke;
+    height: 35vw;
+    background-color: #DFDAD5;
+    color: rgb(0, 0, 0);
     transition: 200ms;
     cursor: pointer;
-    border-radius: 0 20px 20px 0;
 }
 
 .lista_nav{
-    color: whitesmoke;
+    color: black;
     text-decoration: none;
     
 }
@@ -82,22 +81,54 @@ body{
     
 }
 
+.informacao_telefone{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    cursor:auto;
+}
+
+.informacao_numero{
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    cursor:auto;
+}
+
+
                                             /* HEADER */
 
 main{
     padding: 100px;
 }
 
-.carrosel {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    padding: 50px;
-}   
-
-.carrosel img{
+.carousel {
+    margin-left: 140px;
     width: 850px;
-}
+    overflow: hidden;
+    border: 1px solid black;
+  }
+  
+  .carousel-inner {
+    width: 200%;
+    animation: carousel-animation 20s infinite; /* Duração total é de 20 segundos (2 imagens x 20 segundos) */
+  }
+  
+  .carousel-inner img {
+    float: left;
+    width: 50%;
+  }
+  
+  @keyframes carousel-animation {
+    0% {
+      margin-left: 0;
+    }
+    50% {
+      margin-left: -100%; /* Desloca para a esquerda metade da largura das imagens */
+    }
+    100% {
+      margin-left: 0;
+    }
+  }
 
 .geral{
     display: flex;
@@ -158,26 +189,7 @@ button:hover{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*===================FOOTER==================*/
 
 footer{
     background-color: #DFDAD5;  
@@ -187,21 +199,14 @@ footer{
     justify-content: space-between;
     font-weight: bold;
     border: 1px solid black;
-}
-.foot{
-    color: goldenrod;
+    height: 8vw;
+
 }
 
-.hora{
-    padding: 10px;
-}
 
-.copy{
-    padding-top: 20px;
-}
 
-.adress{
-    text-align: right;
-    padding-bottom:7px ;
-    padding: 10px;
-}
+   
+  
+  
+  
+  
